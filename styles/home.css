@@ -1,0 +1,63 @@
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/hero-img.jpg);
+    background-size: cover;
+    height: 60vh;
+    font-size: 1.5rem;
+}
+
+.shop-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.feature-container{
+    padding: 0 1rem;
+}
+
+.title-underline{
+    background-color: var(--voilet-color);
+    width: 12rem;
+    height: 0.24rem;
+    margin: 0.2rem auto 2rem;
+}
+
+.grid-3-column-layout{
+    margin-left: 5rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+
+/* footer-section */
+
+.footer{
+    min-height: 7rem;
+    background-color: var(--bg-dark-color);
+	width: 100%;
+	padding: 1.5rem;
+    text-align: center;
+	color: var(--lynx-white-color);
+	font-size: 1.5rem;
+}
+
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links i {
+    padding: 1rem;       
+    font-size: 1rem;
+    color: var(--lynx-white-color);
+}
+
+.footer .fas{
+    color: rgb(190, 54, 54);
+}
