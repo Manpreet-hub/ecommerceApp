@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion-hub</title>
+    <link rel="stylesheet" href="https://styleui.netlify.app/Components/component.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/pages/products/products.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nav-title"><a href="/index.html">Fashion-hub</a></div>
+        <div class="search-box">
+            <i class="search-icon fas fa-search" aria-hidden="true"></i>
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+
+        <div class="navbar-section">
+            <ul>
+                <li><a class="navbar-links" href="#"> <span>
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span>
+                            Login
+                        </span></a></li>
+                <li><a class="navbar-links" href="#">
+                        <span>
+                            <i class="fas fa-heart"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Wishlist
+                        </span></a></li>
+                <li><a class="navbar-links" href="#"><span>
+                            <i class="fas fa-shopping-cart"> Cart</i>
+                        </span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sidebar-container">
+        <div class="flex-row space-between container-box">
+            <h3>Filters</h3>
+            <p><u>Clear</u></p>
+        </div>
+        <div class="container-box">
+            <h3>Price</h3>
+            <div class="price-range ">
+                <div class="flex-row space-between">
+                    <span>100</span>
+                    <span>500</span>
+                    <span>1000</span>
+
+                </div>
+                <input class="price-range" type="range" />
+            </div>
+        </div>
+
+        <div class="container-box">
+            <h3>Category</h3>
+            <div class="category">
+                <input id="men" type="checkbox" />
+                <label for="men">Men Clothing</label>
+            </div>
+
+            <div class="category">
+                <input id="men" type="checkbox" />
+                <label for="men">Women Clothing</label>
+            </div>
+
+            <div class="category">
+                <input id="men" type="checkbox" />
+                <label for="men">Kids Clothing</label>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <h3>Rating</h3>
+            <div class="rating-label">
+                <input id="star-4" type="radio" name="rating" />
+                <label for="star-4">4 Stars & above</label>
+            </div>
+
+            <div class="rating-label">
+                <input id="star-3" type="radio" name="rating" />
+                <label for="star-3">3 Stars & above</label>
+            </div>
+
+            <div class="rating-label">
+                <input id="star-2" type="radio" name="rating" />
+                <label for="star-2">2 Stars & above</label>
+            </div>
+
+            <div class="rating-label">
+                <input id="star-1" type="radio" name="rating" />
+                <label for="star-1">1 Stars & above</label>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <h3 class="bold">Sort by</h3>
+            <div class="sort-label">
+                <input type="radio" id="low-high" name="sort">
+                <label for="low-high">Price - Low to High</label>
+            </div>
+            <div class="sort-label">
+                <input type="radio" id="high-low" name="sort">
+                <label for="high-low">Price - High to Low</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <p>Showing all products (10 products)</p>
+        <div class="grid-container">
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="/assets/product-img.jpg" alt="product-img">
+                <div class="card-body">
+                    <h3 class="card-title"> Blazer</h3>
+                    <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                    <p>₹ 1999/-</p>
+                    <button class="btn-default btn-primary">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
