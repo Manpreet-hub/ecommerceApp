@@ -1,0 +1,10 @@
+.wishlist-container{
+    margin: 4rem 2rem 0 4rem;
+}
+
+.wishList-col{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
