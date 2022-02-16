@@ -39,9 +39,15 @@ body {
     height: 3rem;
 }
 
-.v-spacer-2rem {
+.v-space-2rem {
     width: 100%;
     height: 2rem;
+}
+
+.v-space-1rem
+{
+    width: 100%;
+    height: 1rem; 
 }
 
 .txt-center {

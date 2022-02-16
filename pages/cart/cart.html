@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion-hub</title>
+    <link rel="stylesheet" href="https://styleui.netlify.app/Components/component.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nav-title"><a href="/index.html">Fashion-hub</a></div>
+        <div class="search-box">
+            <i class="search-icon fas fa-search" aria-hidden="true"></i>
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+
+        <div class="navbar-section">
+            <ul class="nav-icons">
+                <li><a class="navbar-links" href="../signup-login/login.html">Login</li>
+                <li><a class="navbar-links" href="/pages/wishlist/wishlist.html">
+                        <div class="badge-container">
+                            <i class="fas fa-heart">
+                                <span class="badge-icon">6</span>
+                            </i>
+                        </div>
+                    </a></li>
+                <li><a class="navbar-links" href="/pages/cart/cart.html">
+                        <div class="badge-container">
+                            <i class="fas fa-shopping-cart">
+                                <span class="badge-icon">4</span>
+                            </i>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h2 class="txt-header-color txt-center">My Cart (2)</h2>
+        <div class="v-space-2rem"></div>
+        <div class="cart">
+            <div class="flex-col">
+                <div class="horizontal-card bg-color">
+                    <img class=" img" src="/assets/product-img.jpg" alt="product-img">
+                    <div class="card-body">
+                        <h3 class="card-title"> Blazer</h3>
+                        <p class="card-text">Peter England Men's Notch Lapel Slim Blazer.</p>
+                        <p>₹ 1999/-</p>
+                        <div class="quantity">
+                            <p><label>Quantity:</label></p>
+                            <div class="flex-row">
+                                <button class="plus-minus">+</button>
+                                <input class="qty-input" type="number">
+                                <button class="plus-minus">-</button>
+                            </div>
+                        </div>
+
+                        <button class="btn-default cart-btn">Remove from cart</button>
+                        <button class="btn-default btn-dark cart-btn">Move to wishlist</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="billing-details">
+                <h2>PRICE DETAILS</h2>
+                <hr />
+                <div class="v-space-1rem"></div>
+                <div class="flex-row space-between">
+                    <span class="para-md">Price (2 items) </span>
+                    <span>1999</span>
+                </div>
+                <div class="v-space-1rem"></div>
+                <div class="flex-row space-between">
+                    <span class="para-md">Delivery charges</span>
+                    <span>2</span>
+                </div>
+                <div class="v-space-1rem"></div>
+                <hr />
+                <div class="v-space-1rem"></div>
+                <div class="flex-row space-between">
+                    <span class="para-md">TOTAL AMOUNT</span>
+                    <span>4000</span>
+                </div>
+                <div class="v-space-1rem"></div>
+
+                <span class="para-md">You will save Rs.999 on this order</span>
+                <div class="v-space-1rem"></div>
+
+                <button class="btn-default btn-primary-solid cart-btn">Place order</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
